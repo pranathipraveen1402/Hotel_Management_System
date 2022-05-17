@@ -10,7 +10,7 @@ from guestcheckout import *
 #2. Room checkout
 #3. View room booking report
 root = Tk()
-root.title('Hotel Management Software')
+root.title('Hotel Management System')
 l1 = Label(root, text='HOTEL MANAGEMENT SYSTEM - ADMIN TOOL')
 l1.grid(row=0, column=0, columnspan=3, sticky='NSEW')
 b1 = Button(root, text="Room reservation",border=5, padx=50, pady=20, command=reserve)
